@@ -48,7 +48,7 @@ export function Dialog() {
 						href={selectedContact?.website}
 						className="font-light underline underline-offset-4"
 					>
-						Website Besuchen
+						zur Website
 					</a>
 				</div>
 

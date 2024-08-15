@@ -24,15 +24,17 @@ export default {
 				"sr-emerald-50": "#ACD4CE",
 				"sr-emerald-25": "#D5E9E6",
 
-				"sr-purple-100": "#9372A7",
-				"sr-purple-75": "#AE95BD",
-				"sr-purple-50": "#C9B9D3",
-				"sr-purple-25": "#E4DCE9",
+				"sr-purple-100": "#70ACC0",
+				"sr-purple-75": "#91bfcf",
+				"sr-purple-50": "#b4d4de",
+				"sr-purple-25": "#d8e8ee",
 
 				"sr-light-grey": "#9899AD",
 				"sr-blue-grey": "#393A60",
 				"sr-lighter-black": "#131313",
 				"sr-darker-purple": "#5F61A0",
+
+				"sr-light-blue-100": "#70ACC0",
 			},
 		},
 	},

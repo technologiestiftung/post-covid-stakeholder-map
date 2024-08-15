@@ -40,7 +40,7 @@ export function BranchLegends() {
 				>
 					<div className={`flex flex-col`}>
 						<span
-							className={`text-xl font-semibold underline underline-offset-8 decoration-4 ${underlineColors[index]}`}
+							className={`text-xl font-semibold underline underline-offset-8 decoration-4 ${underlineColors[index]} leading-8`}
 						>
 							{branch.name}
 						</span>

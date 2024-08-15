@@ -16,7 +16,7 @@ export function App() {
 			<Header />
 
 			<main className="flex flex-col">
-				<h1 className="text-6xl font-semibold pt-14 pl-28 leading-10">
+				<h1 className="text-6xl font-semibold pt-14 pl-28">
 					Post-COVID-Datenmodell: Stakeholder-Map
 				</h1>
 				<div

@@ -3,49 +3,49 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: "National";
+	font-family: "Sora";
 	font-style: normal;
 	font-weight: 300;
 	font-display: swap;
-	src: url("/fonts/National-Book.woff2");
+	src: url("/fonts/Sora-Book.ttf");
 }
 
 @font-face {
-	font-family: "National";
+	font-family: "Sora";
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url("/fonts/National-Regular.woff2");
+	src: url("/fonts/Sora-Regular.ttf");
 }
 
 @font-face {
-	font-family: "National";
+	font-family: "Sora";
 	font-style: normal;
 	font-weight: 500;
 	font-display: swap;
-	src: url("/fonts/National-Medium.woff2");
+	src: url("/fonts/Sora-Medium.ttf");
 }
 
 @font-face {
-	font-family: "National";
+	font-family: "Sora";
 	font-style: normal;
 	font-weight: 600;
 	font-display: swap;
-	src: url("/fonts/National-Semibold.woff2");
+	src: url("/fonts/Sora-Semibold.ttf");
 }
 
 @font-face {
-	font-family: "National";
+	font-family: "Sora";
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url("/fonts/National-Bold.woff2");
+	src: url("/fonts/Sora-Bold.ttf");
 }
 
 @font-face {
-	font-family: "National";
+	font-family: "Sora";
 	font-style: normal;
 	font-weight: 800;
 	font-display: swap;
-	src: url("/fonts/National-Extrabold.woff2");
+	src: url("/fonts/Sora-Extrabold.ttf");
 }

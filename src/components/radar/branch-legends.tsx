@@ -7,7 +7,7 @@ const LEGEND_WIDTH = 250;
 
 const underlineColors = [
 	"decoration-sr-magenta-100",
-	"decoration-sr-purple-100",
+	"decoration-sr-greyblue-100",
 	"decoration-sr-emerald-100",
 	"decoration-sr-blue-100",
 ];

@@ -12,7 +12,7 @@ export function TagCheckbox({ tag }: { tag: string }) {
 			className="
 			rounded-full border-2 px-2.5 py-1 font-medium cursor-pointer
 			has-[:checked]:bg-sr-blue-grey has-[:checked]:text-white has-[:checked]:border-sr-blue-grey
-			has-[:checked]:hover:bg-sr-darker-purple has-[:checked]:hover:border-opacity-5
+			has-[:checked]:hover:bg-sr-darker-greyblue has-[:checked]:hover:border-opacity-5
 			bg-sr-blue-grey bg-opacity-5 border-blue-grey border-opacity-5 hover:bg-opacity-0"
 			onClick={() => toggleTagSelection(tag)}
 		>

@@ -15,10 +15,10 @@ const srEmerald100 = fullConfig.theme.colors["sr-emerald-100"];
 const srEmerald75 = fullConfig.theme.colors["sr-emerald-75"];
 const srEmerald50 = fullConfig.theme.colors["sr-emerald-50"];
 const srEmerald25 = fullConfig.theme.colors["sr-emerald-25"];
-const srPurple100 = fullConfig.theme.colors["sr-purple-100"];
-const srPurple75 = fullConfig.theme.colors["sr-purple-75"];
-const srPurple50 = fullConfig.theme.colors["sr-purple-50"];
-const srPurple25 = fullConfig.theme.colors["sr-purple-25"];
+const srPurple100 = fullConfig.theme.colors["sr-greyblue-100"];
+const srPurple75 = fullConfig.theme.colors["sr-greyblue-75"];
+const srPurple50 = fullConfig.theme.colors["sr-greyblue-50"];
+const srPurple25 = fullConfig.theme.colors["sr-greyblue-25"];
 
 export const colors = [
 	srMagenta100,

@@ -6,7 +6,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["National", "sans-serif"],
+				sans: ["Sora", "sans-serif"],
 			},
 			colors: {
 				"sr-magenta-100": "#F64C72",
@@ -24,15 +24,15 @@ export default {
 				"sr-emerald-50": "#ACD4CE",
 				"sr-emerald-25": "#D5E9E6",
 
-				"sr-purple-100": "#70ACC0",
-				"sr-purple-75": "#91bfcf",
-				"sr-purple-50": "#b4d4de",
-				"sr-purple-25": "#d8e8ee",
+				"sr-greyblue-100": "#70ACC0",
+				"sr-greyblue-75": "#91bfcf",
+				"sr-greyblue-50": "#b4d4de",
+				"sr-greyblue-25": "#d8e8ee",
 
 				"sr-light-grey": "#9899AD",
 				"sr-blue-grey": "#393A60",
 				"sr-lighter-black": "#131313",
-				"sr-darker-purple": "#5F61A0",
+				"sr-darker-greyblue": "#5F61A0",
 
 				"sr-light-blue-100": "#70ACC0",
 			},

@@ -66,7 +66,7 @@ export function SplashScreen() {
 				<div className="text-[20px] text-sr-blue-100 font-medium pb-2 md:pt-7">
 					Technologiestiftung Berlin
 				</div>
-				<h1 className="text-4xl md:text-[56px] font-semibold leading-10">
+				<h1 className="text-4xl md:text-[56px] font-semibold leading-10 pt-3 pb-1">
 					Stakeholder-Map
 				</h1>
 				<h2 className="text-4xl md:text-[32px] font-semibold leading-10 pb-5 md:pb-7">

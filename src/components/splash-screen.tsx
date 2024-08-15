@@ -41,7 +41,7 @@ export function SplashScreen() {
 		},
 		{
 			label: "Quellcode",
-			url: "https://github.com/technologiestiftung/stakeholder-radar",
+			url: "https://github.com/technologiestiftung/post-covid-stakeholder-map",
 		},
 		{
 			label: "Datenschutz",

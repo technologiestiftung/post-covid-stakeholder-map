@@ -4,60 +4,45 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {repo-template}
+# Post-COVID-Datenmodell: Stakeholder-Map 
 
-## TODO (after you generated the repo)
+Die Stakeholder-Map visualisiert die im Rahmen der Challenge „Post-COVID-Datenmodell“ beteiligten 
+Projekt- und Gesprächspartner:innen und relevante Akteur:innen die mit dem konzipierten Datenmodell 
+der Technologiestiftung Berlin und dem Berlin Institute of Health at Charité Berlin in Verbindung stehen. 
+Dabei wurden Akteur:innen aus insgesamt vier verschiedenen Bereichen identifiziert, die sich Anhand
+ihres Wirkungsgrads auf das Datenmodell und ihren Schwerpunktthemen unterscheiden. 
 
-- [ ] Review the content of the README.md and adjust to your liking
-- [ ] Read the README.md till the end and adjust the content licensing,
-      logos, etc (I know you stopped at tbd...)
-- [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
-- [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
-- [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
+Die Stakeholder-Map kann hier eingesehen werden: [post-covid-stakeholder-map.netlify.app](post-covid-stakeholder-map.netlify.app)
 
-```json
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>technologiestiftung/renovate-config"],
-	"baseBranches": ["staging"]
-}
-```
-
-- [ ] Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
-
-```bash
-npx all-contributors-cli check
-npx all-contributors-cli add ff6347 doc
-```
-
-You can use it on GitHub just by commenting on PRs and issues:
-
-```plain
-@all-contributors please add @ff6347 for infrastructure, tests and code
-```
-
-- [ ] Add your project description
-- [ ] Get fancy shields at https://shields.io
+Einzelne Datenpunkte können mit Hilfe von Tags gefiltert und in der Listenansicht übersichtlich dargestellt werden. Mit Klick
+auf einen Punkt, können mehr Informationen über die einzelnen Organisationen oder Personen abgerufen werden.
 
 ## Prerequisites
 
-tbd...
+To locally run the project you need node with the version specified in the [.nvmrc](.nvmrc) file.
 
 ## Installation
+Install the dependencies with:
 
-tbd...
+```
+npm ci
+```
 
-## Usage or Deployment
-
-tbd...
 
 ## Development
+Run the local development server with
 
-tbd...
+```
+npm run dev
+```
 
-## Tests
+## Usage or Deployment
+To build the project run:
 
-tbd...
+```
+npm run build
+```
+
 
 ## Contributing
 
@@ -73,7 +58,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/8709861?v=4?s=64" width="64px;" alt="Raphael.A"/><br /><sub><b>Raphael.A</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=raphael-arce" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/raphael-arce"><img src="https://avatars.githubusercontent.com/u/8709861?v=4?s=64" width="64px;" alt="Raphael.A"/><br /><sub><b>Raphael.A</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=raphael-arce" title="Code">💻</a> <a href="https://github.com/technologiestiftung/template-default/commits?author=raphael-arce" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aeschi"><img src="https://avatars.githubusercontent.com/u/56318362?v=4?s=64" width="64px;" alt="aeschi"/><br /><sub><b>aeschi</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=aeschi" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Lisa-Stubert"><img src="https://avatars.githubusercontent.com/u/61182572?v=4?s=64" width="64px;" alt="Lisa-Stubert"/><br /><sub><b>Lisa-Stubert</b></sub></a><br /><a href="https://github.com/technologiestiftung/template-default/commits?author=Lisa-Stubert" title="Code">💻</a> <a href="#data-Lisa-Stubert" title="Data">🔣</a></td>
     </tr>

@@ -3,18 +3,18 @@ import { ListViewIcon } from "./icons/list-view-icon";
 
 export function Header() {
 	return (
-		<header className="pt-16 pl-28 flex flex-row justify-between">
+		<header className="pt-10 md:pt-16 px-6 md:px-28 flex flex-row justify-between items-start">
 			<img
 				src="/images/PCDM-Logo-20240802.svg"
 				alt="Post-COVID Datenmodell Logo"
 				className="w-24"
 			/>
-			<div className="flex flex-row  pr-28 gap-6">
+			<div className="flex flex-row gap-6">
 				<a
 					href="#listView"
 					className="flex text-xs flex-col items-center gap-2"
 				>
-					<ListViewIcon />
+					<ListViewIcon className="h-8 md:h-[42px]" />
 					Listenansicht
 				</a>
 				<button
@@ -25,7 +25,7 @@ export function Header() {
 						).showModal();
 					}}
 				>
-					<InfoIcon />
+					<InfoIcon className="h-8 md:h-[42px]" />
 					Info
 				</button>
 			</div>
